@@ -1,5 +1,5 @@
 //
-//  TabBarViewController.swift
+//  ComposeViewController.swift
 //  tumblr-w4
 //
 //  Created by cverdi on 10/27/15.
@@ -8,18 +8,17 @@
 
 import UIKit
 
-class TabBarViewController: UIViewController {
+class ComposeViewController: UIViewController {
 
-    @IBOutlet weak var tabView: UIView!
-    @IBOutlet weak var contentView: UIView!
+    @IBOutlet var mainView: UIView!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        tabView.backgroundColor = UIColorFromRGB(0x33465D)
+        super.viewDid
+        mainView.backgroundColor = UIColorFromRGB(0x33465D)
+        mainView.alpha = 0.5
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
 }

@@ -83,6 +83,23 @@
             </objects>
             <point key="canvasLocation" x="573" y="300"/>
         </scene>
+        <!--Compose View Controller-->
+        <scene sceneID="FEo-lW-9X1">
+            <objects>
+                <viewController id="obZ-28-ndG" customClass="ComposeViewController" customModule="tumblr_w4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OqS-qf-EuQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="mainView" destination="OqS-qf-EuQ" id="YrV-dy-4Km"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R9t-LO-Cen" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="558" y="961"/>
+        </scene>
         <!--Search View Controller-->
         <scene sceneID="D0C-mM-0JL">
             <objects>

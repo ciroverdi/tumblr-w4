@@ -15,6 +15,8 @@
 		186F499A1BDFEC9300E87391 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F49991BDFEC9300E87391 /* TabBarViewController.swift */; };
 		186F499C1BDFF63500E87391 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F499B1BDFF63500E87391 /* HomeViewController.swift */; };
 		186F499F1BDFF8EB00E87391 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F499E1BDFF8EB00E87391 /* SearchViewController.swift */; };
+		186F49A11BDFFA4100E87391 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F49A01BDFFA4100E87391 /* ComposeViewController.swift */; };
+		186F49A31BDFFB3300E87391 /* Commom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F49A21BDFFB3300E87391 /* Commom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		186F49991BDFEC9300E87391 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		186F499B1BDFF63500E87391 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		186F499E1BDFF8EB00E87391 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		186F49A01BDFFA4100E87391 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		186F49A21BDFFB3300E87391 /* Commom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			children = (
 				186F499D1BDFF63B00E87391 /* ViewControllers */,
 				186F49871BDFE78400E87391 /* AppDelegate.swift */,
+				186F49A21BDFFB3300E87391 /* Commom.swift */,
 				186F498B1BDFE78400E87391 /* Main.storyboard */,
 				186F498E1BDFE78400E87391 /* Assets.xcassets */,
 				186F49901BDFE78400E87391 /* LaunchScreen.storyboard */,
@@ -73,6 +78,7 @@
 		186F499D1BDFF63B00E87391 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				186F49A01BDFFA4100E87391 /* ComposeViewController.swift */,
 				186F499B1BDFF63500E87391 /* HomeViewController.swift */,
 				186F499E1BDFF8EB00E87391 /* SearchViewController.swift */,
 				186F49991BDFEC9300E87391 /* TabBarViewController.swift */,
@@ -154,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				186F499F1BDFF8EB00E87391 /* SearchViewController.swift in Sources */,
+				186F49A31BDFFB3300E87391 /* Commom.swift in Sources */,
 				186F498A1BDFE78400E87391 /* ViewController.swift in Sources */,
 				186F499A1BDFEC9300E87391 /* TabBarViewController.swift in Sources */,
+				186F49A11BDFFA4100E87391 /* ComposeViewController.swift in Sources */,
 				186F49881BDFE78400E87391 /* AppDelegate.swift in Sources */,
 				186F499C1BDFF63500E87391 /* HomeViewController.swift in Sources */,
 			);
