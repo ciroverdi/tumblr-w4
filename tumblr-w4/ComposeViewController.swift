@@ -13,7 +13,7 @@ class ComposeViewController: UIViewController {
     @IBOutlet var mainView: UIView!
     
     override func viewDidLoad() {
-        super.viewDid
+        super.viewDidLoad()
         mainView.backgroundColor = UIColorFromRGB(0x33465D)
         mainView.alpha = 0.5
     }
