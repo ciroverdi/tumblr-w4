@@ -130,6 +130,26 @@
             </objects>
             <point key="canvasLocation" x="1489" y="300"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="JIT-Tv-sOF">
+            <objects>
+                <viewController id="TTP-sq-jPS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UCi-uv-sqg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account" id="84h-DW-pfd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tme-pa-RJ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1962" y="300"/>
+        </scene>
         <!--Search View Controller-->
         <scene sceneID="D0C-mM-0JL">
             <objects>
@@ -152,6 +172,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="account" width="320" height="524"/>
         <image name="account_icon" width="35" height="35"/>
         <image name="account_selected_icon" width="35" height="35"/>
         <image name="chat_icon" width="75" height="96"/>
