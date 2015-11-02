@@ -15,7 +15,7 @@ class TrendingViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         trendingScrollView.delegate = self
         trendingScrollView.contentSize = trendingImageView.image!.size
     }
